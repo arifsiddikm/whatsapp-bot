@@ -1,6 +1,6 @@
 ## WhatsApp Bot & API
 
-### List Feature 
+### List Feature
 
 - Send Message, Broadcast, Media, etc
 - Auto Reply Chat Bot
@@ -12,7 +12,7 @@
 - ChatGPT Auto Reply with API OpenAI
 - Edit Background Photo
 
-### How to use? 
+### How to use?
 
 - Download Source Code
 - Open Project > Run `npm install`
