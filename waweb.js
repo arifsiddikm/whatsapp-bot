@@ -59,6 +59,9 @@ const client = new Client({
 
 
 const db = require('./helpers/db');
+// const { EditPhotoHandler } = require('./feature/edit_foto');
+// const { ChatAIHandler } = require('./feature/chat_ai'); 
+
 client.on('message', async (msg) => {
 
   if(msg.body=="clearmsg") {  
@@ -266,6 +269,16 @@ client.on('message', async (msg) => {
   }
   // Jika Kontak Chat japri, bukan grup;   
   if(mygroup=="c.us") {
+
+    // editbg edit background foto 
+    // if (keyword.includes("editbg:")) { 
+    //   await EditPhotoHandler(keyword, msg); 
+    // } 
+    
+    // #tanya/question? tanya chatgpt
+    // if (keyword.includes("tanya ai")) {   
+    //   await ChatAIHandler(keyword, msg);    
+    // }
 
     if (msg.body == 'ping') {
       msg.reply('pong');
