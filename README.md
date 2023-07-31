@@ -9,6 +9,8 @@
 - Get Kurs Data from API 
 - Get News from Web or Instagram using API
 - Maintenance Server using SSH 
+- ChatGPT Auto Reply with API OpenAI
+- Edit Background Photo
 
 ### How to use? 
 
